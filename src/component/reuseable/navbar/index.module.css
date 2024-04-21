@@ -1,0 +1,10 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
