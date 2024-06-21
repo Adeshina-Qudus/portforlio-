@@ -1,5 +1,6 @@
 import Layout from "../component/layout";
 import Home from "../home";
+import FeaturedProject from "../featuredProject";
 
 export const Routes = [
     {
@@ -9,6 +10,10 @@ export const Routes = [
             {
                 path : "",
                 element:<Home/>
+            },
+            {
+                path: "",
+                element:<FeaturedProject/>
             }
         ]
     }
