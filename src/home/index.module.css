@@ -1,0 +1,27 @@
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+.heroP{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.mainCont{
+    display:flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.socials{
+    display: flex;
+    margin-left: 23%;
+    gap : 2%
+}
+.heroPics{
+    margin-top: 5%;
+}
