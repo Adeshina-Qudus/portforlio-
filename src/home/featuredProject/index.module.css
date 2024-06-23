@@ -1,0 +1,29 @@
+.featureProjectTop{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 9%;
+}
+.projectView{
+    background-color: #848191;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.img{
+    height: 22vh;
+    width: 270px;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.aboutFeaturedProject{
+    display: flex;
+    flex-direction: row;
+    gap : 5%;
+    justify-content: center;
+}
+.repoButton{
+    margin-bottom: 2%;
+}
