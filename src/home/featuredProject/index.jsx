@@ -3,6 +3,7 @@ import expenseTrackerImg from "../../assert/featuredProject/Untitled-removebg-pr
 import contactManagement from "../../assert/featuredProject/secretary-contact-management-svgrepo-com.svg"
 import bookEase from "../../assert/featuredProject/pngtree-party-and-celebration-icon-set-png-image_5870321-removebg-preview.png"
 import FilledButton from "../../component/reuseable/filledbutton";
+import {Link} from "react-router-dom";
 const FeaturedProject = () =>{
     return(
         <div >
@@ -12,27 +13,35 @@ const FeaturedProject = () =>{
             </div>
             <div className={style.aboutFeaturedProject}>
                 <div className={style.projectView}>
-                    <img src={expenseTrackerImg} className={style.img}/>
-                    <p color={"7562E0"}>Expense Tracker</p>
+                    <div className={style.projectViewBorder}>
+                        <img src={expenseTrackerImg} className={style.img} alt={""}/>
+                    </div>
+                    <p color={"7562E0"} style={{marginRight : "50%"}}>Expense Tracker</p>
                     <p>Expense tracker helps you track your expenses</p>
-                      <div className={style.repoButton}>
-                        <FilledButton color={"7562E0"} textColor={"white"} text="Github Repo"/>
-                      </div>
+                    <div className={style.repoButton}>
+                        <FilledButton color={"green"} textColor={"white"} text="Github Repo"/>
+                    </div>
                 </div>
                 <div className={style.projectView}>
-                    <img src={contactManagement} className={style.img}/>
-                    <p>Contact Management</p>
+                    <div className={style.projectViewBorder}>
+                        <img src={contactManagement} className={style.img} alt={""}/>
+                    </div>
+                    <p color={"7562E0"} style={{marginRight : "37%"}}>Contact Management</p>
                     <p>Expense tracker helps you track your expenses</p>
                       <div className={style.repoButton}>
                         <FilledButton color={"green"} textColor={"white"} text="Github Repo"/>
                       </div>
                 </div>
                 <div className={style.projectView}>
-                    <img src={bookEase} className={style.img}/>
-                    <p>Book Ease</p>
+                    <div className={style.projectViewBorder}>
+                        <img src={bookEase} className={style.img} alt={""}/>
+                    </div>
+                    <p color={"7562E0"} style={{marginRight : "60%"}}>Book Ease</p>
                     <p>Expense tracker helps you track your expenses</p>
                        <div className={style.repoButton}>
-                        <FilledButton color={"green"} textColor={"white"} text="Github Repo"/>
+                        <Link to={"https://github.com/Adeshina-Qudus/PreventSapaExpensesTracker"}>
+                            Github Repo
+                        </Link>
                        </div>
                 </div>
             </div>
