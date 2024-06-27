@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 7%;
     align-items: center;
     gap: 45%;
 }
@@ -15,7 +16,8 @@
 .mainCont{
     display:flex;
     flex-direction: column;
-    margin-top: 5%;
+    background-color: #1A1A29;
+
 }
 .socials{
     display: flex;

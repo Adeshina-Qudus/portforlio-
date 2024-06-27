@@ -9,13 +9,13 @@ const Body = () =>{
         <div className={style.mainCont}>
             <div className={style.details}>
                 <div>
-                    <FilledButton color={"green"} text={"Hello i'm"} textColor={"white"}/>
-                    <h1>Adeshina Qudus</h1>
-                    <h4>Software Engineer</h4>
+                    <FilledButton color={"#7562E0"} text={"Hello i'm"} textColor={"white"}/>
+                    <h1 color={"white"}>Adeshina Qudus</h1>
+                    <h4 color={"white"}>Software Engineer</h4>
                     <div>
-                        <p><FaEnvelope color={"black"}/> qudusa55@gmail.com</p>
-                        <p><FaPhoneAlt color={"black"}/> +234 907 944 7913</p>
-                        <p><FaMapMarkerAlt color={"black"}/> Lagos State Nigeria </p>
+                        <p color={"white"}><FaEnvelope color={"white"}/> qudusa55@gmail.com</p>
+                        <p color={"white"}><FaPhoneAlt color={"white"}/> +234 907 944 7913</p>
+                        <p color={"white"}><FaMapMarkerAlt color={"white"}/> Lagos State Nigeria </p>
                     </div>
                     </div>
                         <div className={style.heroPics}>

@@ -5,12 +5,14 @@
     margin-left: 9%;
 }
 .projectView{
-    background-color: #848191;
+    /*background-color: rgba(20, 20, 143, 0.35);*/
+    background-color: #181824;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    margin-bottom: 5%;
 }
 .img{
     height: 22vh;
@@ -32,5 +34,8 @@
     /*border-width: 20px;*/
     border-radius: 10px;
     margin-top: 2%;
-    background-color: rgb(164, 164, 194);
+    background-color: rgba(122, 114, 171, 0.38);
+}
+.mainCont{
+    background-color: #1A1A29;
 }

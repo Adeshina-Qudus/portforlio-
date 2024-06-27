@@ -5,7 +5,7 @@ const Navbar = ()=>{
     return(
         <div className={style.mainCont}>
             <div>
-                <FilledButton color={"Green"} textColor={"white"} text={"RESUME"}/>
+                <FilledButton color={"#7562E0"} textColor={"white"} text={"RESUME"}/>
             </div>
             <div className={style.link}>
                 <Link to={""} style={{color: "white"}}>Home</Link>

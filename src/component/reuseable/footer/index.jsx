@@ -9,7 +9,7 @@ const Footer = () =>{
         <div className={style.mainCont}>
             <div className={style.content}>
                 <div>
-                    <h1>Connect with me:</h1>
+                    <h1 color={"#7562E0"}>Connect with me:</h1>
                     <p>Satisfied with me? Please contact me</p>
                     <div className={style.socials}>
                         <Link to={"https://www.linkedin.com/in/adeshina-qudus-7224a128b/"} color={"black"}>
@@ -21,13 +21,13 @@ const Footer = () =>{
                     </div>
                 </div>
                 <div>
-                    <h1>Contact me, let’s make magic together</h1>
+                    <h1 color={"white"}>Contact me, let’s make magic together</h1>
                     <form className={style.inputField}>
                         <input type={"text"} placeholder={"Name :"} className={style.inputBox}/>
                         <input type={"text"} placeholder={"Email :"} className={style.inputBox}/>
                         <input type={"text"} placeholder={"Message :"} className={style.inputBox} style={{height :
                                 "10vh"}}/>
-                        <FilledButton text={"Send"} textColor={"white"} color={"green"}/>
+                        <FilledButton text={"Send"} textColor={"white"} color={"#7562E0"}/>
                     </form>
                 </div>
             </div>
