@@ -1,0 +1,33 @@
+.mainCont{
+    background-color: #1A1A29;
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.abtImg{
+    border-radius: 10px;
+}
+.break{
+    display: inline-block;
+}
+.languageButton{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-bottom: 2%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+.cont{
+    margin-left: 13%;
+}
