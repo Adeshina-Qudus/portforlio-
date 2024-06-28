@@ -22,7 +22,7 @@ const AboutMe = () =>{
                    </div>
                     <div className={style.languageButton}>
                         <OutlinedButton bordercolor={"#7562E0"} textColor={"white"} text={"Java"}  color={"#181824"}/>
-                        <OutlinedButton bordercolor={"#7562E0"} textColor={"white"} text={"Python"}  color={"#181824"}/>
+                        <OutlinedButton bordercolor={"#7562E0"} textColor={"white"} text={"Pyth on"}  color={"#181824"}/>
                         <OutlinedButton bordercolor={"#7562E0"} textColor={"white"} text={"JavaScript"}  color={"#181824"}/>
                         <OutlinedButton bordercolor={"#7562E0"} textColor={"white"} text={"Golang"}  color={"#181824"}/>
                     </div>
