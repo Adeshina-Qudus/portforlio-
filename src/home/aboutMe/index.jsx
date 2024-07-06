@@ -10,7 +10,7 @@ const AboutMe = () =>{
                 </div>
                 <div className={style.about}>
                     <div className="about-container">
-                        <h1 className={style.text}>About Me</h1>
+                        <h1 color={"#7562E0"}>About Me</h1>
                         <p className={style.text}>Hello I'm Qudus Adeshina, a Junior Software Engineer <span className="break">
                         proficient in Java, Python, MongoDB, MySQL, and unittest.</span> <span className="break">
                         Excels in writing clean, efficient code and enjoys tackling </span> <span className="break">

@@ -39,6 +39,9 @@
 .mainCont{
     background-color: #1A1A29;
 }
+.text{
+    color: white;
+}
 @media screen and (max-width: 760px){
     .aboutFeaturedProject{
         display: flex;
