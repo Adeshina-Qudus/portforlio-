@@ -10,3 +10,8 @@
     flex-direction: row;
     gap: 10%;
 }
+@media screen and (max-width: 760px){
+    .mainCont {
+        display: none;
+    }
+}

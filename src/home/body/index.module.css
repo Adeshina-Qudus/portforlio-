@@ -11,7 +11,7 @@
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center;
+    object-position : top;
 }
 .mainCont{
     display:flex;
@@ -26,4 +26,17 @@
 }
 .heroPics{
     margin-top: 5%;
+}
+@media screen and (max-width: 760px){
+    .details {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .socials {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 30%
+
+    }
 }

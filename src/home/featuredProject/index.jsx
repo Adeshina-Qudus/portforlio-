@@ -9,7 +9,7 @@ const FeaturedProject = () =>{
         <div className={style.mainCont}>
             <div className={style.featureProjectTop}>
                 <h1 color={"7562E0"}>Featured projects:</h1>
-                <p color={"white"}>I have worked on many projects over the course of being a Web Developer, here are a few of my live, real-world<br/> projects</p>
+                <p color={"white"}>I have worked on many projects over the course of being a Software Developer, here are a few of my live, real-world<br/> projects</p>
             </div>
             <div className={style.aboutFeaturedProject}>
                 <div className={style.projectView}>
