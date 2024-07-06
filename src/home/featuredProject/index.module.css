@@ -42,6 +42,9 @@
 .text{
     color: white;
 }
+.headerText{
+    color: #7562E0
+}
 @media screen and (max-width: 760px){
     .aboutFeaturedProject{
         display: flex;
