@@ -39,3 +39,9 @@
 .mainCont{
     background-color: #1A1A29;
 }
+@media screen and (max-width: 760px){
+    .aboutFeaturedProject{
+        display: flex;
+        flex-direction: column;
+    }
+}
