@@ -10,8 +10,8 @@ const AboutMe = () =>{
                 </div>
                 <div className={style.about}>
                     <div className="about-container">
-                        <h1>About Me</h1>
-                        <p>Hello I'm Qudus Adeshina, a Junior Software Engineer <span className="break">
+                        <h1 className={style.text}>About Me</h1>
+                        <p className={style.text}>Hello I'm Qudus Adeshina, a Junior Software Engineer <span className="break">
                         proficient in Java, Python, MongoDB, MySQL, and unittest.</span> <span className="break">
                         Excels in writing clean, efficient code and enjoys tackling </span> <span className="break">
                         challenges. Eager to contribute to exciting projects </span>

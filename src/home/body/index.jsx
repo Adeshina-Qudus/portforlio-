@@ -10,8 +10,8 @@ const Body = () =>{
             <div className={style.details}>
                 <div>
                     <FilledButton color={"#7562E0"} text={"Hello i'm"} textColor={"white"}/>
-                    <h1 color={"white"}>Adeshina Qudus</h1>
-                    <h4 color={"white"}>Software Engineer</h4>
+                    <h1 color={"white"} className={style.text}>Adeshina Qudus</h1>
+                    <h4 color={"white"} className={style.text}>Software Engineer</h4>
                     <div>
                         <p color={"white"} className={style.text}><FaEnvelope color={"white"}/> qudusa55@gmail.com</p>
                         <p color={"white"} className={style.text}><FaPhoneAlt color={"white"}/> +234 907 944 7913</p>
