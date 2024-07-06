@@ -12,7 +12,24 @@
 .abtImg{
     border-radius: 10px;
 }
-.break{
+.about-container {
+    display: flex;
+    flex-direction: column;
+    color: white; /* This ensures the text color is white */
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.about-container h1 {
+    margin: 0 0 16px 0;
+}
+
+.about-container p {
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.break {
     display: inline-block;
 }
 .languageButton{

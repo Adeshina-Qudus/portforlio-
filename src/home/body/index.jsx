@@ -13,9 +13,9 @@ const Body = () =>{
                     <h1 color={"white"}>Adeshina Qudus</h1>
                     <h4 color={"white"}>Software Engineer</h4>
                     <div>
-                        <p color={"white"}><FaEnvelope color={"white"}/> qudusa55@gmail.com</p>
-                        <p color={"white"}><FaPhoneAlt color={"white"}/> +234 907 944 7913</p>
-                        <p color={"white"}><FaMapMarkerAlt color={"white"}/> Lagos State Nigeria </p>
+                        <p color={"white"} className={style.text}><FaEnvelope color={"white"}/> qudusa55@gmail.com</p>
+                        <p color={"white"} className={style.text}><FaPhoneAlt color={"white"}/> +234 907 944 7913</p>
+                        <p color={"white"} className={style.text}><FaMapMarkerAlt color={"white"}/> Lagos State Nigeria </p>
                     </div>
                     </div>
                         <div className={style.heroPics}>
