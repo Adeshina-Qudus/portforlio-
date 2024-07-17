@@ -26,3 +26,11 @@
 .lastPartFooter{
     margin-left: 8%;
 }
+
+
+@media  screen and (max-width: 760px) {
+    .connect {
+        display: none;
+    }
+
+}
