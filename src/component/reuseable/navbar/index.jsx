@@ -5,7 +5,7 @@ const Navbar = ()=>{
     return(
         <div className={style.mainCont}>
             <div>
-                <a href="../../../assert/navbar/Qudus-Adeshina-FlowCV-Resume-20240505-1-2.pdf" download>
+                 <a href="../../../assert/navbar/Qudus-Adeshina-FlowCV-Resume-20240505-1-2.pdf" download>
                     <FilledButton color={"#7562E0"} textColor={"white"} text={"RESUME"}/>
                 </a>
 
