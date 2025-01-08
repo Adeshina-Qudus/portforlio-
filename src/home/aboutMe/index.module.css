@@ -1,5 +1,5 @@
 .mainCont{
-    background-color: #1A1A29;
+    background-color: black;
     display: flex;
 }
 .content{
@@ -54,6 +54,20 @@
 }
 .cont{
     margin-left: 13%;
+}
+.service{
+    color: white;
+}
+.offer{
+    color: white;
+}
+.profession{
+    background: linear-gradient(to right, #fcfae9, #dfe9fe);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    animation: colorChange 2.8s infinite;
 }
 @media screen  and (max-width: 760px){
     .cont{

@@ -1,15 +1,59 @@
-.mainCont{
+.mainCont {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #1A1A29;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+}
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.nickname {
+    font-size: 1.0rem;
+    color: white;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 5%;
+    width: 85%;
+}
+@keyframes flicker {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
 
-}
-.link{
+.link {
     display: flex;
-    flex-direction: row;
-    gap: 10%;
+    align-items: center;
+    gap: 10px;
 }
+
+.githubLogo {
+    width: 30px;
+    height: 28px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.githubLogo {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.githubLogo:hover {
+    transform: scale(1.5);
+}
+
+
 @media screen and (max-width: 760px){
     .mainCont {
         display: none;
