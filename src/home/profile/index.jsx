@@ -1,14 +1,14 @@
 import hero from "../../assert/home/Hero.png"
 import style from "./index.module.css"
-import {FaLinkedin, FaGithub, FaInstagram, FaTwitter} from 'react-icons/fa';
+import {FaLinkedin, FaInstagram} from 'react-icons/fa';
 import {Link} from "react-router-dom";
 import {FaXTwitter} from "react-icons/fa6";
 
-const Body = () =>{
+const Profile = () =>{
     return(
         <div className={style.mainCont}>
             <div className={style.details}>
-                <h1 color={"white"} className={style.profession}>Software Engineer.</h1>
+                <p className={style.profession}>Software Engineer.</p>
                 <div>
                     <p className={style.text}>You go here! i'm Qudus Adeshina </p>
                 </div>
@@ -30,4 +30,4 @@ const Body = () =>{
         </div>
     )
 }
-export default Body
+export default Profile

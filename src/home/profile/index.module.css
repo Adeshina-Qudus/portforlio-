@@ -4,12 +4,7 @@
     justify-content: center;
     margin-left: 8%;
 }
-.heroP{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position : top;
-}
+
 .mainCont{
     display:flex;
     flex-direction: row;
@@ -48,9 +43,39 @@
     transform: scale(1.5);
 }
 
-.heroPics{
-    margin-top: 5%;
+.heroPics {
+    position: relative; /* Necessary for positioning the frame behind the image */
+    display: inline-block;
 }
+
+.heroP {
+    width: 45%;  /* Set your desired image width */
+    height: 27vh;
+    transition: transform 0.5s ease; /* Smooth rotation effect */
+    position: relative; /* For handling z-index */
+}
+
+.heroPics::before {
+    content: ''; /* Empty content for the frame */
+    position: absolute;
+    height: 97%;
+    bottom: -10px;
+    width: 45%;
+    margin-left: 2%;
+    border: 2px solid rgb(52 175 203); /* Your frame color */
+    z-index: -0; /* Ensure the frame stays behind the image */
+    transition: transform 0.5s ease; /* Smooth frame rotation */
+}
+
+.heroPics:hover .heroP {
+    transform: rotate(15deg); /* Rotate the image */
+}
+
+.heroPics:hover::before {
+    transform: rotate(-15deg); /* Rotate the frame in the opposite direction */
+}
+
+
 .text{
     color: white;
     font:  20px "Roboto", sans-serif;
@@ -63,7 +88,8 @@
     color: transparent;
     font-weight: bolder;
     animation: colorChange 2.8s infinite;
-    font-size: 5.2rem;
+    font-size: 3.2rem;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
 }
 @media screen and (max-width: 760px){
     .details {

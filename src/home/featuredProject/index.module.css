@@ -50,7 +50,7 @@
 }
 
 .mainCont {
-    background-color: #1A1A29;
+    background-color: black;
 }
 
 .text {
@@ -64,10 +64,16 @@
 }
 
 .headerText {
-    color: #7562E0;
+    color: white;
     text-align: center;
     margin-top: 10px;
 }
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
 @media screen and (max-width: 760px){
     .aboutFeaturedProject{
         display: flex;
