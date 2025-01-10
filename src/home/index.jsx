@@ -1,7 +1,6 @@
-import Body from "./profile";
 import FeaturedProject from "./featuredProject";
-import AboutMe from "./aboutMe";
 import Profile from "./profile";
+import Skills from "./skills";
 
 
 const Home = () =>{
@@ -9,6 +8,7 @@ const Home = () =>{
         <>
             <Profile />
             <FeaturedProject/>
+            <Skills/>
             {/*<AboutMe/>*/}
         </>
     )

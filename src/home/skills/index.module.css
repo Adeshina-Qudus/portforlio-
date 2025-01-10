@@ -1,0 +1,38 @@
+.mainCont{
+    background-color: #0A1C20;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+}
+
+
+.skillsTable {
+    display: flex;
+    /*justify-content: center; !* Center the tables horizontally *!*/
+    gap: 50px; /* Space between the tables */
+    margin: 20px 0; /* Add some margin above and below */
+}
+
+.learnt{
+    color: #808e91;
+}
+
+.skill{
+    color: white;
+    font-size: 22px;
+}
+.table {
+    display: flex;
+    justify-content: center ; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    width: 30%; /* Set the width of the table */
+    height: 50px; /* Set the height of the table */
+    background-color: #0A1C20; /* Light gray background */
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 16px 0px;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    color: white; /* Text color */
+}

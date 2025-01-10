@@ -26,7 +26,7 @@ const IconButton = ({
                 padding: "0 12px",
                 cursor: "pointer",
                 border: "none",
-                borderRadius: "5px", // Optional: For rounded corners
+                borderRadius: "5px",
             }}
             className={style.iconButton}
             onClick={onClick}

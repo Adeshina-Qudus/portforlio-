@@ -1,6 +1,5 @@
 import style from "./index.module.css"
-import aboutMe from "../../assert/aboutme/ab-img.png.png"
-import OutlinedButton from "../../component/reuseable/outlinedButton";
+
 const AboutMe = () =>{
     return(
         <div className={style.mainCont}>
